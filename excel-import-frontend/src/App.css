@@ -1,0 +1,213 @@
+.notice {
+  min-height: 8dvh;
+  background-color: rgba(255, 250, 205, 0.826);
+  padding-top: 2.5dvh;
+}
+.notice > p {
+  margin: 0;
+  text-align: center;
+  font: 300 2vmax "Lato";
+  border: 5px dashed rgb(242, 231, 130);
+  color: rgb(172, 172, 46);
+}
+.field {
+  padding: 2dvh 1.5dvw 2dvh 1.5dvw;
+}
+form {
+  box-sizing: border-box;
+}
+#fileInput {
+  display: none;
+}
+.fileInput {
+  border: 3px dashed rgba(184, 179, 179, 0.449);
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  height: 14dvh;
+  width: 95dvw;
+}
+.label-Div {
+  background-color: steelblue;
+  margin: 2.5dvh 1dvw 0 2dvw;
+  max-width: 16dvw;
+  max-height: 5dvh;
+  padding: 2dvh 0.5dvw 2dvh 0.5dvw;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: ease-out 0.3s;
+  box-shadow: 2px 2px 2px 2px rgba(96, 96, 96, 0.458),
+    -1px -1px 0.5px 0.5px rgba(96, 96, 96, 0.458);
+}
+.label-Div:hover {
+  transform: scale(1.03);
+}
+.fileInput-Label {
+  font: 400 2rem "Lato";
+  color: white;
+}
+.name-div {
+  padding-top: 4.5dvh;
+}
+.fileName {
+  font: 300 2vmax "Lato";
+}
+.button {
+  margin-top: 15px;
+  border: none;
+  border-radius: 10px;
+  width: 95dvw;
+  height: 10dvh;
+  background-color: steelblue;
+  font-family: "Lato";
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  transition: ease-out 0.3s;
+  box-shadow: 2px 2px 2px 2px rgba(96, 96, 96, 0.458),
+    -1px -1px 0.5px 0.5px rgba(96, 96, 96, 0.458);
+}
+.button:hover {
+  transform: scale(1.01);
+}
+.dataTable {
+  width: 95dvw;
+  height: auto;
+  text-align: center;
+  margin: 1dvh 1dvw 1dvh 2dvw;
+}
+.dataTable > thead {
+  background-color: rgba(112, 128, 144, 0.493);
+}
+.dataTable > thead > tr > th {
+  border-bottom: 2px dotted rgba(25, 25, 112, 0.247);
+  font: 500 1.5vmax "Times-New-Roman";
+  width: 33.33%;
+}
+.dataTable > tbody > tr > td {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.503);
+}
+.paragraph {
+  margin-top: 22dvh;
+  margin-left: 35dvw;
+  font-weight: 500;
+  font-size: 5vmax;
+  color: rgba(128, 128, 128, 0.54);
+}
+
+/* Rohan css*/
+/* .container {
+  width: 80%;
+  margin: auto;
+}
+
+.import-section,
+.view-section {
+  margin-bottom: 20px;
+}
+
+.import-heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #4caf50;
+}
+
+.import-line {
+  border: none;
+  height: 1px;
+  background-color: #ddd;
+  margin-bottom: 20px;
+}
+
+.fileInput {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.fileInput-Label {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.fileInput-Label i {
+  margin-right: 10px;
+}
+
+.fileName {
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 4px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  color: #1d0101;
+  font-size: 18px;
+  font-weight: 600;
+  width: 73%;
+  height: 45px;
+  text-align: center;
+  line-height: 41px;
+}
+
+.button {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  margin-left: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #4caf50;
+  color: white;
+}
+
+.dataTable {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.paragraph {
+  margin-top: 20px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.fileInput-Label:hover {
+  background-color: #3e8e41;
+}
+
+.fileInput-Label:active {
+  background-color: #1e7f39;
+} */
